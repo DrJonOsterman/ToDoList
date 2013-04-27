@@ -48,7 +48,7 @@ void deleteNode(int indexToDelete){
 
 			if (iterator == indexToDelete)
 			{
-				current->nexTask = NULL;
+				current->nextTask = NULL;
 				delete current;		
 			}
 
